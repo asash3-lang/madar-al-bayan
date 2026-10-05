@@ -1,0 +1,1 @@
+ALTER TABLE `message_numbers` ADD `deleted_at` text;

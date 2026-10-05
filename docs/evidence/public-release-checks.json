@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-05",
+  "scope": "Public-source distribution checks in the preparation workspace; no claim of a published GitHub Actions run. Dependency installation from an empty external machine has not been independently verified.",
+  "checks": [
+    {
+      "name": "TypeScript typecheck",
+      "outcome": "passed"
+    },
+    {
+      "name": "Production build",
+      "outcome": "passed",
+      "runtime": "Vinext 1.0.0-beta.5 and Vite 8.0.13"
+    },
+    {
+      "name": "Controlled search-client contracts",
+      "outcome": "passed",
+      "cases": 13
+    },
+    {
+      "name": "Controlled context-model contracts",
+      "outcome": "passed",
+      "cases": 10
+    },
+    {
+      "name": "Official starter import",
+      "outcome": "passed",
+      "hadithTexts": 45,
+      "verseTexts": 9,
+      "languages": 9
+    },
+    {
+      "name": "Starter identity and retrieval smoke check",
+      "outcome": "passed"
+    },
+    {
+      "name": "Local D1 migration command",
+      "outcome": "passed"
+    },
+    {
+      "name": "Tracked public-release boundary check",
+      "outcome": "passed",
+      "trackedFilesAtCheck": 280,
+      "scope": "Excluded file categories, selected credential patterns, local documentation links; not a complete security audit."
+    },
+    {
+      "name": "Built Worker local HTTP startup",
+      "outcome": "not verified",
+      "reason": "Execution environment rejected network interface enumeration (uv_interface_addresses). No browser or live local HTTP success is claimed."
+    },
+    {
+      "name": "Independent-host authentication boundary",
+      "outcome": "passed",
+      "scope": "Controlled synthetic-header test; removes spoofed hosting identity while preserving standalone admin cookie."
+    },
+    {
+      "name": "Compiled source asset binding",
+      "outcome": "passed",
+      "scope": "Built Worker config exposes publisher assets as ASSETS."
+    }
+  ],
+  "documentationReview": {
+    "date": "2026-10-05",
+    "outcome": "passed",
+    "scope": "Source-directory parity, planned-language metadata and inventory arithmetic; documentation-only update, with no new live or runtime test claim.",
+    "currentReferenceEntries": 9,
+    "plannedReferenceEntries": 25,
+    "supportedLanguages": 9,
+    "plannedLanguages": 11,
+    "textRecords": 77806,
+    "nonemptyExplanationsReportedSeparately": 18393
+  }
+}

@@ -1,0 +1,291 @@
+{
+  "languages": [
+    {
+      "code": "id",
+      "name": "Bahasa Indonesia",
+      "arabicName": "الإندونيسية",
+      "direction": "ltr"
+    },
+    {
+      "code": "ur",
+      "name": "اردو",
+      "arabicName": "الأردية",
+      "direction": "rtl"
+    }
+  ],
+  "i18n": {
+    "id": {
+      "brand": "Madar Al Bayan",
+      "ask": "Tanyakan kepada Madar Al Bayan",
+      "placeholder": "Tulis pertanyaan Anda…",
+      "search": "Cari",
+      "searching": "Sedang mencari…",
+      "close": "Tutup",
+      "menu": "Menu",
+      "source": "Sumber",
+      "original": "Teks yang diterbitkan oleh sumber",
+      "hadith": "Hadis",
+      "explanation": "Penjelasan yang diterbitkan",
+      "references": "Referensi dalam teks Arab asli",
+      "openSource": "Buka sumber",
+      "copy": "Salin",
+      "copied": "Tersalin",
+      "error": "Terjadi kesalahan. Silakan coba lagi.",
+      "invalid": "Tulis pertanyaan sepanjang 1–1.000 karakter.",
+      "busy": "Tunggu hingga pencarian selesai.",
+      "insufficient": "Tidak ditemukan teks sumber yang sesuai. Coba pertanyaan yang lebih singkat atau kata kunci lain.",
+      "unavailable": "Terjemahan dari sumber untuk sementara tidak tersedia. Silakan coba lagi.",
+      "draft": "Draf yang dibuat oleh AI",
+      "draftNote": "Terpisah dari teks sumber dan perlu ditinjau.",
+      "live": "Langsung dari sumber",
+      "snapshot": "Teks sumber tersimpan",
+      "mixed": "Sumber langsung dan tersimpan",
+      "retrieved": "Diakses pada",
+      "back": "Kembali ke pencarian",
+      "cases": "Berkas peninjauan (bahasa Arab)",
+      "catalog": "Daftar referensi (bahasa Arab)",
+      "save": "Simpan untuk ditinjau",
+      "saving": "Menyimpan…",
+      "examples": [
+        "Apa itu ihsan?",
+        "Apa arti niat dalam Islam?"
+      ]
+    },
+    "ur": {
+      "brand": "مدار البیان",
+      "ask": "مدار البیان سے پوچھیے",
+      "placeholder": "اپنا سوال لکھیے…",
+      "search": "تلاش کریں",
+      "searching": "تلاش جاری ہے…",
+      "close": "بند کریں",
+      "menu": "مینو",
+      "source": "ماخذ",
+      "original": "ماخذ میں شائع شدہ متن",
+      "hadith": "حدیث",
+      "explanation": "شائع شدہ تشریح",
+      "references": "اصل عربی متن کے حوالہ جات",
+      "openSource": "ماخذ کھولیں",
+      "copy": "نقل کریں",
+      "copied": "نقل ہو گیا",
+      "error": "کچھ خرابی پیش آئی۔ براہ کرم دوبارہ کوشش کریں۔",
+      "invalid": "۱ سے ۱۰۰۰ حروف پر مشتمل سوال لکھیے۔",
+      "busy": "موجودہ تلاش مکمل ہونے کا انتظار کریں۔",
+      "insufficient": "متعلقہ ماخذ کا متن نہیں ملا۔ مختصر سوال یا دوسرے کلیدی الفاظ آزمائیں۔",
+      "unavailable": "ماخذ کا ترجمہ عارضی طور پر دستیاب نہیں ہے۔ براہ کرم دوبارہ کوشش کریں۔",
+      "draft": "مصنوعی ذہانت سے تیار کردہ مسودہ",
+      "draftNote": "یہ اصل ماخذ کے متن سے الگ ہے اور اس کا جائزہ لینا ضروری ہے۔",
+      "live": "براہ راست ماخذ سے",
+      "snapshot": "ماخذ کا محفوظ متن",
+      "mixed": "براہ راست اور محفوظ ماخذ",
+      "retrieved": "حاصل کرنے کی تاریخ",
+      "back": "تلاش پر واپس جائیں",
+      "cases": "جائزے کی فائلیں (عربی)",
+      "catalog": "حوالہ جات کی فہرست (عربی)",
+      "save": "جائزے کے لیے محفوظ کریں",
+      "saving": "محفوظ کیا جا رہا ہے…",
+      "examples": [
+        "احسان کیا ہے؟",
+        "اسلام میں نیت کا کیا مطلب ہے؟"
+      ]
+    }
+  },
+  "searchLabels": {
+    "id": {
+      "didYouMean": "Apakah maksud Anda",
+      "verse": "Terjemahan makna ayat",
+      "arabic": "Ayat dalam bahasa Arab",
+      "notes": "Catatan penerbit"
+    },
+    "ur": {
+      "didYouMean": "کیا آپ کی مراد یہ ہے",
+      "verse": "آیت کے معنی کا ترجمہ",
+      "arabic": "عربی آیت",
+      "notes": "ناشر کے نوٹس"
+    }
+  },
+  "sourceReferences": {
+    "id": {
+      "references": "Referensi",
+      "publisher": "Informasi penerbit"
+    },
+    "ur": {
+      "references": "حوالہ جات",
+      "publisher": "ناشر کی معلومات"
+    }
+  },
+  "sourceLinkDescriptions": {
+    "id": {
+      "data": "Penerbit tidak menyediakan tautan ke halaman baca tersendiri untuk catatan ini. Tautan ini membuka data resmi yang menjadi sumber teks.",
+      "search": "Tautan ini mencari teks riwayat lengkap di situs penerbit. Tautan khusus untuk riwayat tersebut tidak disediakan.",
+      "unavailable": "Tautan langsung ke referensi saat ini tidak tersedia."
+    },
+    "ur": {
+      "data": "ناشر نے اس اندراج کے لیے الگ مطالعے کے صفحے کا ربط فراہم نہیں کیا۔ یہ ربط ان سرکاری معلومات کو کھولتا ہے جن سے متن لیا گیا ہے۔",
+      "search": "یہ ربط ناشر کی ویب سائٹ پر پوری روایت تلاش کرتا ہے۔ اس روایت کا الگ ربط فراہم نہیں کیا گیا۔",
+      "unavailable": "حوالے کا براہ راست ربط فی الحال دستیاب نہیں ہے۔"
+    }
+  },
+  "referralCopy": {
+    "id": {
+      "intro": "Kami belum menemukan jawaban yang sesuai dalam bahasa Anda di sumber yang tersedia. Anda dapat mengirimkan pertanyaan untuk ditinjau.",
+      "email": "Email Anda",
+      "consent": "Saya setuju untuk membagikan pertanyaan dan email saya kepada tim peninjau agar dapat menerima jawaban.",
+      "submit": "Kirim untuk ditinjau",
+      "saved": "Terkirim. Nomor referensi:",
+      "offline": "Balasan melalui email belum diaktifkan. Waktu balasan belum dapat dipastikan.",
+      "failed": "Pertanyaan tidak dapat dikirim. Silakan coba lagi nanti."
+    },
+    "ur": {
+      "intro": "دستیاب ماخذ میں آپ کی زبان میں مناسب جواب نہیں ملا۔ آپ اپنا سوال شرعی جائزے کے لیے بھیج سکتے ہیں۔",
+      "email": "آپ کا ای میل",
+      "consent": "جواب موصول کرنے کے لیے میں اپنا سوال اور ای میل جائزہ لینے والی ٹیم کے ساتھ شیئر کرنے پر رضامند ہوں۔",
+      "submit": "جائزے کے لیے بھیجیں",
+      "saved": "ارسال ہو گیا۔ حوالہ نمبر:",
+      "offline": "ای میل کے ذریعے جوابات ابھی فعال نہیں ہیں۔ جواب دینے کا وقت ابھی طے نہیں ہے۔",
+      "failed": "سوال بھیجا نہیں جا سکا۔ براہ کرم کچھ دیر بعد دوبارہ کوشش کریں۔"
+    }
+  },
+  "referralContextUnavailable": {
+    "id": "Kesesuaian sumber dengan pertanyaan Anda belum dapat diperiksa saat ini. Anda dapat mengirimkan pertanyaan untuk ditinjau.",
+    "ur": "اس وقت سوال سے ماخذ کی مطابقت کی جانچ ممکن نہیں ہے۔ آپ اپنا سوال جائزے کے لیے بھیج سکتے ہیں۔"
+  },
+  "contactLabels": {
+    "id": {
+      "title": "Hubungi kami",
+      "contact": "Email atau nomor telepon *",
+      "name": "Nama (opsional)",
+      "message": "Pesan (opsional)",
+      "send": "Kirim",
+      "saved": "Pesan Anda telah dikirim kepada tim situs. Nomor referensi:",
+      "error": "Periksa informasi kontak Anda dan coba lagi.",
+      "note": "Informasi kontak Anda hanya akan digunakan untuk membalas pesan Anda."
+    },
+    "ur": {
+      "title": "ہم سے رابطہ کریں",
+      "contact": "ای میل یا موبائل نمبر *",
+      "name": "نام (اختیاری)",
+      "message": "پیغام (اختیاری)",
+      "send": "بھیجیں",
+      "saved": "آپ کا پیغام ویب سائٹ کی ٹیم کو بھیج دیا گیا ہے۔ حوالہ نمبر:",
+      "error": "اپنی رابطے کی معلومات چیک کریں اور دوبارہ کوشش کریں۔",
+      "note": "آپ کی رابطے کی معلومات صرف آپ کے پیغام کا جواب دینے کے لیے استعمال ہوں گی۔"
+    }
+  },
+  "replyEmail": {
+    "id": {
+      "title": "Jawaban untuk pertanyaan Anda",
+      "greeting": "Sahabat yang terhormat,",
+      "intro": "Terima kasih telah menghubungi Madar Al Bayan. Dengan senang hati kami menyampaikan jawaban atas pertanyaan Anda.",
+      "question": "Pertanyaan Anda",
+      "answer": "Jawaban kami",
+      "reference": "Nomor pesan",
+      "sources": "Referensi",
+      "closing": "Kami selalu menyambut pertanyaan Anda. Silakan hubungi kami kembali kapan saja.",
+      "team": "Komite Pengawas Madar Al Bayan",
+      "contact": "Hubungi komite pengawas",
+      "rights": "Hak cipta dilindungi. Madar Al Bayan.",
+      "publisherRights": "Hak atas materi referensi dimiliki oleh penerbit masing-masing."
+    },
+    "ur": {
+      "title": "آپ کے سوال کا جواب",
+      "greeting": "محترم دوست،",
+      "intro": "مدار البیان سے رابطہ کرنے کا شکریہ۔ ہمیں آپ کے سوال کا جواب پیش کرتے ہوئے خوشی ہو رہی ہے۔",
+      "question": "آپ کا سوال",
+      "answer": "ہمارا جواب",
+      "reference": "پیغام نمبر",
+      "sources": "حوالہ جات",
+      "closing": "آپ کے سوالات ہمیشہ خوش آئند ہیں۔ آپ کسی بھی وقت دوبارہ ہم سے رابطہ کر سکتے ہیں۔",
+      "team": "مدار البیان کی نگران کمیٹی",
+      "contact": "نگران کمیٹی سے رابطہ کریں",
+      "rights": "جملہ حقوق محفوظ ہیں۔ مدار البیان۔",
+      "publisherRights": "حوالہ جاتی مواد کے حقوق متعلقہ ناشرین کے پاس محفوظ ہیں۔"
+    }
+  },
+  "islamQuestions": [
+    {
+      "language": "id",
+      "question": "Apa itu Islam?"
+    },
+    {
+      "language": "ur",
+      "question": "اسلام کیا ہے؟"
+    }
+  ],
+  "navigationHome": {
+    "id": "Beranda",
+    "ur": "صفحۂ اول"
+  },
+  "messageLanguageNames": {
+    "id": "الإندونيسية",
+    "ur": "الأردية"
+  },
+  "libraryOverview": {
+    "id": {
+      "title": "Perpustakaan untuk pertanyaan Anda",
+      "hadith": "Teks hadis dan terjemahan",
+      "quran": "Teks ayat dan terjemahan",
+      "languages": "Bahasa",
+      "sources": "Referensi",
+      "more": "Jelajahi referensi"
+    },
+    "ur": {
+      "title": "آپ کے سوالات کے لیے کتب خانہ",
+      "hadith": "احادیث کے متن اور تراجم",
+      "quran": "آیات کے متن اور تراجم",
+      "languages": "زبانیں",
+      "sources": "حوالہ جات",
+      "more": "حوالہ جات دیکھیں"
+    }
+  },
+  "detectionClues": {
+    "id": [
+      "apa",
+      "apakah",
+      "mengapa",
+      "kenapa",
+      "bagaimana",
+      "siapa",
+      "artinya",
+      "maksud",
+      "niat",
+      "salat",
+      "shalat",
+      "puasa",
+      "berpuasa",
+      "rukun"
+    ],
+    "ur": [
+      "کیا",
+      "کیوں",
+      "کیسے",
+      "ہے",
+      "ہیں",
+      "میں",
+      "کا",
+      "کی",
+      "کے",
+      "نہیں",
+      "نماز",
+      "روزہ",
+      "روزے",
+      "نیت",
+      "ایمان"
+    ]
+  },
+  "smokeQuestions": {
+    "id": [
+      "Apa itu Islam?",
+      "Mengapa niat penting dalam ibadah?",
+      "Apa saja rukun iman?",
+      "Apa yang dimaksud dengan ihsan?",
+      "Apa hukum berpuasa pada bulan Ramadan?"
+    ],
+    "ur": [
+      "اسلام کیا ہے؟",
+      "عبادت میں نیت کیوں ضروری ہے؟",
+      "ایمان کے ارکان کیا ہیں؟",
+      "احسان کا کیا مطلب ہے؟",
+      "رمضان میں روزہ رکھنے کا کیا حکم ہے؟"
+    ]
+  }
+}

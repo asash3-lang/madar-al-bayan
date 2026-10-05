@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Please cite this software if you use it in research. Cite publisher content separately using its original references."
+title: "Madar Al Bayan: Source-Grounded Multilingual Islamic Reference Discovery"
+type: software
+authors:
+  - family-names: "Al-Malki"
+    given-names: "Abdullah bin Saeed"
+version: "1.0.0"
+date-released: 2026-10-05
+url: "https://madar-al-bayan.asash263164.chatgpt.site"
+repository-code: "https://github.com/asash3-lang/madar-al-bayan"
+license: MIT
+abstract: "A multilingual reference-discovery application combining question understanding, approved-publisher retrieval, literal evidence validation, source attribution and a human-review workflow."

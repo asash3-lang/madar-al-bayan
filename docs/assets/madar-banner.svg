@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="480" viewBox="0 0 1280 480" role="img" aria-label="Madar Al Bayan. Ask in your language. Read the published evidence.">
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#102c3d"/><stop offset="1" stop-color="#081923"/></linearGradient><radialGradient id="light"><stop stop-color="#2a8b80" stop-opacity=".28"/><stop offset="1" stop-color="#2a8b80" stop-opacity="0"/></radialGradient></defs>
+<rect width="1280" height="480" rx="22" fill="url(#bg)"/>
+<circle cx="1110" cy="195" r="350" fill="url(#light)"/>
+<path d="M860 0v480M1050 0v480M0 370h1280" stroke="#35525a" stroke-opacity=".35"/>
+<text x="64" y="69" fill="#69d3bd" font-family="Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="3">PUBLISHED KNOWLEDGE. TRACEABLE EVIDENCE.</text>
+<text x="60" y="159" fill="#faf7ee" font-family="Arial,sans-serif" font-size="70" font-weight="700" letter-spacing="-2">Madar Al Bayan</text>
+<text x="64" y="215" fill="#d5e2e3" font-family="Arial,sans-serif" font-size="29">Ask in your language.</text>
+<text x="64" y="254" fill="#d5e2e3" font-family="Arial,sans-serif" font-size="29">Read the published evidence.</text>
+<rect x="64" y="295" width="300" height="35" rx="17.5" fill="#163f46" stroke="#418d83"/>
+<text x="214" y="318" text-anchor="middle" fill="#a9e8d9" font-family="Arial,sans-serif" font-size="13" letter-spacing="1">CONTEXT-AWARE · SOURCE-GROUNDED</text>
+<g transform="translate(952 93)"><rect width="200" height="200" rx="42" fill="#173b44" stroke="#497f7a"/><g fill="none" stroke="#efd89e" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"><rect x="40" y="56" width="24" height="87" rx="5"/><rect x="81" y="38" width="24" height="105" rx="5"/><path d="m126 57 19-4 23 85-19 5zM47 77h9m32-19h10"/></g><path d="M40 165h124" stroke="#65d0b9" stroke-width="8" stroke-linecap="round"/></g>
+<text x="1052" y="327" fill="#a9c2c4" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" letter-spacing="3">KNOWLEDGE WITH A REFERENCE</text>
+<g font-family="Arial,sans-serif"><text x="64" y="429" fill="#f0d89f" font-size="31" font-weight="700">09</text><text x="119" y="427" fill="#b4cbd0" font-size="15">supported languages</text><text x="400" y="429" fill="#f0d89f" font-size="31" font-weight="700">09</text><text x="455" y="427" fill="#b4cbd0" font-size="15">current references</text><text x="761" y="429" fill="#f0d89f" font-size="31" font-weight="700">77,806</text><text x="896" y="427" fill="#b4cbd0" font-size="15">hosted text records</text><text x="64" y="457" fill="#7e9ca7" font-size="11">Hosted collection verified 5 October 2026. Counts include published translations; local starter content is smaller.</text></g></svg>

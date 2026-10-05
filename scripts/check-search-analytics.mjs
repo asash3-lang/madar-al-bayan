@@ -1,0 +1,10 @@
+import assert from 'node:assert/strict';
+import {createRequire} from 'node:module';
+const require=createRequire(import.meta.resolve('wrangler/package.json')),{build}=require('esbuild');
+const result={question:'What is ihsan?',language:'en',status:'found',evidence:[{score:99,source:{id:'fixture'},excerpt:'Fixture only'}],answer:[],message:''};
+globalThis.__searchResult=result;globalThis.__statsFailure=false;globalThis.__recorded=[];
+const b=await build({stdin:{contents:"export {POST} from './app/api/ask/route';",resolveDir:process.cwd()},bundle:true,platform:'node',format:'esm',write:false,plugins:[{name:'isolated-search',setup(b){b.onResolve({filter:/^@\/lib\/(federated-search|runtime-model|search-analytics)$/},a=>({path:a.path,namespace:'mock'}));b.onLoad({filter:/.*/,namespace:'mock'},a=>({contents:a.path.endsWith('federated-search')?'export async function answerFromSources(){return globalThis.__searchResult}':a.path.endsWith('runtime-model')?'export function modelSettings(){return {}}':'export async function recordSearch(...args){if(globalThis.__statsFailure)throw Error("Test database unavailable");globalThis.__recorded.push(args)}',loader:'js'}));}}]});
+const api=await import('data:text/javascript;base64,'+Buffer.from(b.outputFiles[0].text).toString('base64'));
+const request=()=>new Request('https://example.test/api/ask',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({question:'What is ihsan?',language:'en'})});
+const success=await api.POST(request());assert.equal(success.status,200);const answer=await success.json();assert(!('score' in answer.evidence[0]));assert.equal(answer.status,'found');assert.equal(globalThis.__recorded.length,1);
+globalThis.__statsFailure=true;const fallback=await api.POST(request());assert.equal(fallback.status,200);assert.deepEqual(await fallback.json(),answer);console.log(JSON.stringify({passed:true,checks:2,externalRequests:0,analyticsFailureDoesNotChangeAnswer:true}));

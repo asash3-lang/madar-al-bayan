@@ -1,0 +1,32 @@
+# Dependencies, builds and tool state
+/node_modules
+dist/
+.next/
+.vinext/
+out/
+coverage/
+.sites-runtime/
+.wrangler/
+.agents/
+.codex/
+*.tsbuildinfo
+*.log
+.DS_Store
+# Credentials and local records
+.env*
+!.env.example
+.dev.vars*
+*.pem
+*.key
+*.db
+*.sqlite
+*.sqlite3
+# Publisher content and generated indexes stay local
+public/sources/
+lib/hadith-index.json
+lib/reference-snapshot.json
+lib/library-statistics.json
+docs/fulltext-index-verification.json
+# Import intermediates
+__pycache__/
+*.pyc

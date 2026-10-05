@@ -1,0 +1,101 @@
+{
+  "date": "2026-10-05",
+  "scope": "Hosted collection inventory, not data bundled with public source release. Translations counted; explanations separately reported.",
+  "inventory": {
+    "languages": {
+      "ar": {
+        "hadithTexts": 3582,
+        "explanations": 3582,
+        "quranVerses": 6236
+      },
+      "en": {
+        "hadithTexts": 2328,
+        "explanations": 2328,
+        "quranVerses": 6236
+      },
+      "fr": {
+        "hadithTexts": 1790,
+        "explanations": 1790,
+        "quranVerses": 6236
+      },
+      "es": {
+        "hadithTexts": 1955,
+        "explanations": 1944,
+        "quranVerses": 6236
+      },
+      "zh": {
+        "hadithTexts": 2256,
+        "explanations": 680,
+        "quranVerses": 6236
+      },
+      "hi": {
+        "hadithTexts": 2314,
+        "explanations": 1325,
+        "quranVerses": 6236
+      },
+      "fa": {
+        "hadithTexts": 2275,
+        "explanations": 2275,
+        "quranVerses": 6236
+      },
+      "id": {
+        "hadithTexts": 2260,
+        "explanations": 2254,
+        "quranVerses": 6236
+      },
+      "ur": {
+        "hadithTexts": 2220,
+        "explanations": 2215,
+        "quranVerses": 6236
+      }
+    },
+    "totalHadithTexts": 20980,
+    "totalExplanations": 18393,
+    "totalQuranVerses": 56124,
+    "verifiedAt": "2026-10-05",
+    "uniqueHadith": 3582,
+    "uniqueVerses": 6236,
+    "surahs": 114,
+    "publishedAnswers": 644,
+    "termCards": 58,
+    "icadbCards": 601,
+    "binbazAnswers": 101,
+    "currentReferences": 9,
+    "totalTextRecords": 77806,
+    "scope": "Original publisher text records, including published translations; catalog-only attachments and live search results are not counted."
+  },
+  "currentPublishers": [
+    "HadeethEnc.com",
+    "QuranEnc.com",
+    "ICADB.com",
+    "Quranpedia.net",
+    "Surah",
+    "Byenah.com",
+    "MP3Quran.net",
+    "IslamHouse.com",
+    "BinBaz.org.sa"
+  ],
+  "publisherCatalogOnly": {
+    "IslamHouse": {
+      "materials": 70460,
+      "languages": 133,
+      "articleEntriesInProjectLanguages": 4677
+    },
+    "HadeethEnc": {
+      "publisherLanguages": 72
+    },
+    "QuranEnc": {
+      "translationLanguages": 56,
+      "editions": 76
+    },
+    "Quranpedia": {
+      "translationLanguages": 60,
+      "editions": 142
+    },
+    "MP3Quran": {
+      "reciters": 242,
+      "recitationCollections": 288,
+      "metadataLanguages": 21
+    }
+  }
+}

@@ -1,0 +1,2 @@
+import {recitationForSurah} from '@/lib/publisher-adapters';
+export async function GET(request:Request){const u=new URL(request.url),s=Number(u.searchParams.get('surah')),language=u.searchParams.get('language')??'en';if(!Number.isInteger(s)||s<1||s>114)return Response.json({error:'Invalid surah'},{status:400});try{return Response.json(await recitationForSurah(s,language),{headers:{'Cache-Control':'public, max-age=3600'}});}catch{return Response.json({error:'Recitation unavailable'},{status:503});}}

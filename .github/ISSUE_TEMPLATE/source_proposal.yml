@@ -1,0 +1,29 @@
+name: Source proposal
+description: Propose an official reference with inspectable access and terms.
+title: "[Source]: "
+body:
+  - type: input
+    id: publisher
+    attributes:
+      label: Publisher and official website
+    validations:
+      required: true
+  - type: textarea
+    id: access
+    attributes:
+      label: API documentation and content sample
+      description: Link to official public documentation. Never paste a private API key.
+    validations:
+      required: true
+  - type: textarea
+    id: languages
+    attributes:
+      label: Verified languages and content types
+      description: Separate website interface languages from published content languages.
+  - type: textarea
+    id: rights
+    attributes:
+      label: Publisher terms and attribution requirements
+      description: Link to terms covering access and any proposed redistribution.
+    validations:
+      required: true

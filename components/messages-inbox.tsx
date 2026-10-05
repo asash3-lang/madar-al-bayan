@@ -1,0 +1,4 @@
+'use client';
+import {useEffect,useState} from 'react';
+type Message={id:string;name:string;contact:string;message:string;created_at:string};
+export function MessagesInbox(){const [items,setItems]=useState<Message[]>([]),[error,setError]=useState('');useEffect(()=>{let live=true;fetch('/api/contact').then(async r=>{if(!r.ok)throw Error('تعذر تحميل رسائل التواصل');return r.json() as Promise<{items:Message[]}>;}).then(d=>{if(live)setItems(d.items);}).catch(e=>{if(live)setError(e.message);});return()=>{live=false;};},[]);return <section className="committee-panel" dir="rtl"><h2>رسائل التواصل</h2>{error&&<p role="alert">{error}</p>}{items.map(item=><article key={item.id} className="evidence-card"><strong>{item.name||'بدون اسم'}</strong><p><bdi>{item.contact}</bdi></p><p dir="auto" style={{whiteSpace:'pre-wrap'}}>{item.message||'طلب تواصل دون نص رسالة'}</p><small>{item.created_at.slice(0,10)}</small></article>)}</section>;}

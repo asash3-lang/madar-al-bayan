@@ -1,0 +1,126 @@
+{
+  "date": "2026-10-05",
+  "deployedVersion": 31,
+  "sourceCommit": "097ec04cb1781f38887cb9bb74700672729da460",
+  "scope": "Six developer-authored focused live requests; 4 found, 1 correctly rejected off-topic query, 1 legitimate query with insufficient evidence.",
+  "cases": [
+    {
+      "case": "Compound ablution and prayer",
+      "language": "en",
+      "httpStatus": "200",
+      "elapsedSeconds": 38.6,
+      "summary": {
+        "status": "found",
+        "language": "en",
+        "planner": "astra",
+        "context": "semantic",
+        "ids": [
+          "10901"
+        ],
+        "publishers": [
+          "HadeethEnc.com"
+        ]
+      },
+      "literalAndLanguage": true,
+      "interpretation": "Expected result observed"
+    },
+    {
+      "case": "Meaning of testimony of faith and its evidence",
+      "language": "ar",
+      "httpStatus": "200",
+      "elapsedSeconds": 53.41,
+      "summary": {
+        "status": "found",
+        "language": "ar",
+        "planner": "astra",
+        "context": "semantic",
+        "ids": [
+          "binbaz:56",
+          "icadb-card:26014:1.0",
+          "binbaz:2001"
+        ],
+        "publishers": [
+          "BinBaz.org.sa",
+          "ICADB.com"
+        ]
+      },
+      "literalAndLanguage": true,
+      "interpretation": "Expected result observed"
+    },
+    {
+      "case": "Prayer when unable to stand",
+      "language": "en",
+      "httpStatus": "200",
+      "elapsedSeconds": 25.89,
+      "summary": {
+        "status": "found",
+        "language": "en",
+        "planner": "astra",
+        "context": "semantic",
+        "ids": [
+          "icadb:3c1c0b0b-c231-4ce6-9c2c-5704419f8dbf:unversioned",
+          "icadb:46a78a5c-8088-4d21-ac52-6f387cfbd7a6:unversioned",
+          "icadb:eb1197f3-a5be-4e13-9e22-a3dde0c6590c:unversioned",
+          "icadb:b263ebd4-eab9-4a59-b9c5-cd299af2e654:unversioned"
+        ],
+        "publishers": [
+          "ICADB.com"
+        ]
+      },
+      "literalAndLanguage": true,
+      "interpretation": "Expected result observed"
+    },
+    {
+      "case": "Internet speed during Ramadan",
+      "language": "fr",
+      "httpStatus": "200",
+      "elapsedSeconds": 16.67,
+      "summary": {
+        "status": "insufficient",
+        "language": "fr",
+        "planner": "astra",
+        "context": "semantic",
+        "ids": [],
+        "publishers": []
+      },
+      "literalAndLanguage": true,
+      "interpretation": "Expected result observed"
+    },
+    {
+      "case": "Definition of jurisprudential school",
+      "language": "ar",
+      "httpStatus": "200",
+      "elapsedSeconds": 18.86,
+      "summary": {
+        "status": "insufficient",
+        "language": "ar",
+        "planner": "astra",
+        "context": "semantic",
+        "ids": [],
+        "publishers": []
+      },
+      "literalAndLanguage": true,
+      "interpretation": "Coverage gap"
+    },
+    {
+      "case": "Al-Sadi commentary 1:1",
+      "language": "ar",
+      "httpStatus": "200",
+      "elapsedSeconds": 3.18,
+      "summary": {
+        "status": "found",
+        "language": "ar",
+        "planner": null,
+        "context": "exact-reference",
+        "ids": [
+          "surah:tafsir-saadi:1:1"
+        ],
+        "publishers": [
+          "Surah"
+        ]
+      },
+      "literalAndLanguage": true,
+      "interpretation": "Expected result observed"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1791007819297,
+      "tag": "0000_equal_sprite",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1791060449531,
+      "tag": "0001_breezy_korath",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1791064319783,
+      "tag": "0002_legal_raider",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1791065978044,
+      "tag": "0003_sticky_maverick",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "6",
+      "when": 1791149269026,
+      "tag": "0004_equal_wendell_rand",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "6",
+      "when": 1791156483381,
+      "tag": "0005_talented_cerise",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "6",
+      "when": 1791156806657,
+      "tag": "0006_acoustic_william_stryker",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "6",
+      "when": 1791162137213,
+      "tag": "0007_message_trash",
+      "breakpoints": true
+    }
+  ]
+}

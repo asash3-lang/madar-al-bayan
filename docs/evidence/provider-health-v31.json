@@ -1,0 +1,279 @@
+{
+  "checkedAt": "2026-10-05T03:08:07.585Z",
+  "deployedVersion": 31,
+  "scope": "Known-record probes, not entire corpus audit. Publisher gateway403 responses retained, no bypass. Saved-content checks identify actual available language editions.",
+  "referenceCount": 9,
+  "sources": [
+    {
+      "publisher": "QuranEnc.com",
+      "mode": "live-with-official-snapshot-fallback",
+      "live": {
+        "id": 1,
+        "ok": true,
+        "status": "connected",
+        "httpStatus": 200,
+        "checkedAt": "2026-10-05T03:08:01.088Z",
+        "records": 1
+      },
+      "saved": [
+        {
+          "language": "ar",
+          "ok": true
+        },
+        {
+          "language": "en",
+          "ok": true
+        },
+        {
+          "language": "fr",
+          "ok": true
+        },
+        {
+          "language": "es",
+          "ok": true
+        },
+        {
+          "language": "zh",
+          "ok": true
+        },
+        {
+          "language": "hi",
+          "ok": true
+        },
+        {
+          "language": "fa",
+          "ok": true
+        },
+        {
+          "language": "id",
+          "ok": true
+        },
+        {
+          "language": "ur",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "publisher": "HadeethEnc.com",
+      "mode": "live-with-official-snapshot-fallback",
+      "live": {
+        "id": 2,
+        "ok": true,
+        "status": "connected",
+        "httpStatus": 200,
+        "checkedAt": "2026-10-05T03:08:01.088Z",
+        "records": 1
+      },
+      "saved": [
+        {
+          "language": "ar",
+          "ok": true
+        },
+        {
+          "language": "en",
+          "ok": true
+        },
+        {
+          "language": "fr",
+          "ok": true
+        },
+        {
+          "language": "es",
+          "ok": true
+        },
+        {
+          "language": "zh",
+          "ok": true
+        },
+        {
+          "language": "hi",
+          "ok": true
+        },
+        {
+          "language": "fa",
+          "ok": true
+        },
+        {
+          "language": "id",
+          "ok": true
+        },
+        {
+          "language": "ur",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "publisher": "Quranpedia.net",
+      "mode": "live-api",
+      "live": {
+        "id": 3,
+        "ok": true,
+        "status": "connected",
+        "httpStatus": 200,
+        "checkedAt": "2026-10-05T03:08:01.088Z",
+        "records": 3
+      },
+      "saved": []
+    },
+    {
+      "publisher": "Surah",
+      "mode": "live-api",
+      "live": {
+        "id": 4,
+        "ok": true,
+        "status": "connected",
+        "httpStatus": 200,
+        "checkedAt": "2026-10-05T03:08:01.088Z",
+        "records": 1
+      },
+      "saved": []
+    },
+    {
+      "publisher": "MP3Quran.net",
+      "mode": "audio-catalog",
+      "live": {
+        "id": 5,
+        "ok": true,
+        "status": "connected",
+        "httpStatus": 200,
+        "checkedAt": "2026-10-05T03:08:01.088Z",
+        "records": 1
+      },
+      "saved": []
+    },
+    {
+      "publisher": "ICADB.com",
+      "mode": "live-api",
+      "live": {
+        "id": 6,
+        "ok": true,
+        "status": "connected",
+        "httpStatus": 200,
+        "checkedAt": "2026-10-05T03:08:01.088Z",
+        "records": 4
+      },
+      "saved": []
+    },
+    {
+      "publisher": "Dorar.net",
+      "mode": "live-api",
+      "live": {
+        "id": 7,
+        "ok": false,
+        "status": "unavailable",
+        "checkedAt": "2026-10-05T03:08:01.088Z",
+        "reason": "publisher-http-error",
+        "httpStatus": 403
+      },
+      "saved": []
+    },
+    {
+      "publisher": "Byenah.com",
+      "mode": "live-with-official-snapshot-fallback",
+      "live": {
+        "id": 8,
+        "ok": false,
+        "status": "unavailable",
+        "checkedAt": "2026-10-05T03:08:01.088Z",
+        "reason": "publisher-http-error",
+        "httpStatus": 403
+      },
+      "saved": [
+        {
+          "language": "ar",
+          "ok": true
+        },
+        {
+          "language": "en",
+          "ok": true
+        },
+        {
+          "language": "fr",
+          "ok": true
+        },
+        {
+          "language": "es",
+          "ok": true
+        },
+        {
+          "language": "zh",
+          "ok": true
+        },
+        {
+          "language": "hi",
+          "ok": true
+        },
+        {
+          "language": "fa",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "publisher": "IslamHouse.com",
+      "mode": "article-catalog",
+      "live": {
+        "id": 9,
+        "ok": true,
+        "status": "catalog-connected",
+        "httpStatus": 200,
+        "checkedAt": "2026-10-05T03:08:01.088Z",
+        "records": 50
+      },
+      "saved": []
+    },
+    {
+      "publisher": "BinBaz.org.sa",
+      "mode": "official-publisher-snapshot",
+      "live": {
+        "id": 27,
+        "ok": true,
+        "status": "connected",
+        "httpStatus": 200,
+        "checkedAt": "2026-10-05T03:08:01.088Z",
+        "records": 1
+      },
+      "saved": []
+    },
+    {
+      "publisher": "Siwar",
+      "mode": "dictionary-api",
+      "live": {
+        "id": 11,
+        "ok": false,
+        "status": "needs-key",
+        "checkedAt": "2026-10-05T03:08:01.088Z",
+        "reason": "missing-api-key"
+      },
+      "saved": []
+    },
+    {
+      "publisher": "Islamic Content MCP",
+      "mode": "mcp-content-probe",
+      "live": {
+        "id": 12,
+        "ok": true,
+        "status": "connected",
+        "httpStatus": 200,
+        "checkedAt": "2026-10-05T03:08:01.088Z",
+        "records": 1
+      },
+      "saved": []
+    },
+    {
+      "publisher": "Shamela MCP",
+      "mode": "mcp-content-probe",
+      "live": {
+        "id": 16,
+        "ok": false,
+        "status": "unavailable",
+        "checkedAt": "2026-10-05T03:08:01.088Z",
+        "reason": "mcp-http-error",
+        "httpStatus": 404
+      },
+      "saved": []
+    }
+  ]
+}

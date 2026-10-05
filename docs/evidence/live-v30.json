@@ -1,0 +1,715 @@
+{
+  "date": "2026-10-05",
+  "deployedVersion": 30,
+  "scope": "Developer-authored live samples. Not a general accuracy estimate. Exact-topic tests and semantic tests are distinguished. Original question text and publisher passages omitted from public evidence summary.",
+  "passed": 24,
+  "total": 24,
+  "cases": [
+    {
+      "language": "ar",
+      "case": "definition",
+      "httpStatus": "200",
+      "elapsedSeconds": 10.15,
+      "passed": true,
+      "summary": {
+        "language": "ar",
+        "status": "found",
+        "context": "direct-topic",
+        "planner": null,
+        "ids": [
+          "4563"
+        ],
+        "sourceLanguages": [
+          "ar"
+        ]
+      },
+      "sources": [
+        {
+          "id": "4563",
+          "publisher": "HadeethEnc.com",
+          "language": "ar",
+          "url": "https://hadeethenc.com/ar/browse/hadith/4563"
+        }
+      ]
+    },
+    {
+      "language": "ar",
+      "case": "procedure",
+      "httpStatus": "200",
+      "elapsedSeconds": 26.39,
+      "passed": true,
+      "summary": {
+        "language": "ar",
+        "status": "found",
+        "context": "semantic",
+        "planner": "astra",
+        "ids": [
+          "10901"
+        ],
+        "sourceLanguages": [
+          "ar"
+        ]
+      },
+      "sources": [
+        {
+          "id": "10901",
+          "publisher": "HadeethEnc.com",
+          "language": "ar",
+          "url": "https://hadeethenc.com/ar/browse/hadith/10901"
+        }
+      ]
+    },
+    {
+      "language": "ar",
+      "case": "off-topic",
+      "httpStatus": "200",
+      "elapsedSeconds": 17.84,
+      "passed": true,
+      "summary": {
+        "language": "ar",
+        "status": "insufficient",
+        "context": "semantic",
+        "planner": "astra",
+        "ids": [],
+        "sourceLanguages": []
+      },
+      "sources": []
+    },
+    {
+      "language": "en",
+      "case": "definition",
+      "httpStatus": "200",
+      "elapsedSeconds": 10.05,
+      "passed": true,
+      "summary": {
+        "language": "en",
+        "status": "found",
+        "context": "direct-topic",
+        "planner": null,
+        "ids": [
+          "4563"
+        ],
+        "sourceLanguages": [
+          "en"
+        ]
+      },
+      "sources": [
+        {
+          "id": "4563",
+          "publisher": "HadeethEnc.com",
+          "language": "en",
+          "url": "https://hadeethenc.com/en/browse/hadith/4563"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "case": "procedure",
+      "httpStatus": "200",
+      "elapsedSeconds": 33.52,
+      "passed": true,
+      "summary": {
+        "language": "en",
+        "status": "found",
+        "context": "semantic",
+        "planner": "astra",
+        "ids": [
+          "10901",
+          "icadb:040e683b-6dc3-4880-86d1-a355b3f871e2:unversioned",
+          "icadb:aeeb459d-6633-4af1-9108-ad582bea4bcc:unversioned",
+          "icadb:df3700c3-205e-4f5f-ab68-b918d34a7087:unversioned"
+        ],
+        "sourceLanguages": [
+          "en",
+          "en",
+          "en",
+          "en"
+        ]
+      },
+      "sources": [
+        {
+          "id": "10901",
+          "publisher": "HadeethEnc.com",
+          "language": "en",
+          "url": "https://hadeethenc.com/en/browse/hadith/10901"
+        },
+        {
+          "id": "icadb:040e683b-6dc3-4880-86d1-a355b3f871e2:unversioned",
+          "publisher": "ICADB.com",
+          "language": "en",
+          "url": "https://icadb.com/"
+        },
+        {
+          "id": "icadb:aeeb459d-6633-4af1-9108-ad582bea4bcc:unversioned",
+          "publisher": "ICADB.com",
+          "language": "en",
+          "url": "https://icadb.com/"
+        },
+        {
+          "id": "icadb:df3700c3-205e-4f5f-ab68-b918d34a7087:unversioned",
+          "publisher": "ICADB.com",
+          "language": "en",
+          "url": "https://icadb.com/"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "case": "off-topic",
+      "httpStatus": "200",
+      "elapsedSeconds": 22.3,
+      "passed": true,
+      "summary": {
+        "language": "en",
+        "status": "insufficient",
+        "context": "semantic",
+        "planner": "astra",
+        "ids": [],
+        "sourceLanguages": []
+      },
+      "sources": []
+    },
+    {
+      "language": "fr",
+      "case": "definition",
+      "httpStatus": "200",
+      "elapsedSeconds": 9.73,
+      "passed": true,
+      "summary": {
+        "language": "fr",
+        "status": "found",
+        "context": "direct-topic",
+        "planner": null,
+        "ids": [
+          "4563"
+        ],
+        "sourceLanguages": [
+          "fr"
+        ]
+      },
+      "sources": [
+        {
+          "id": "4563",
+          "publisher": "HadeethEnc.com",
+          "language": "fr",
+          "url": "https://hadeethenc.com/fr/browse/hadith/4563"
+        }
+      ]
+    },
+    {
+      "language": "fr",
+      "case": "procedure",
+      "httpStatus": "200",
+      "elapsedSeconds": 33.11,
+      "passed": true,
+      "summary": {
+        "language": "fr",
+        "status": "found",
+        "context": "semantic",
+        "planner": "astra",
+        "ids": [
+          "10901",
+          "icadb:040e683b-6dc3-4880-86d1-a355b3f871e2:unversioned"
+        ],
+        "sourceLanguages": [
+          "fr",
+          "fr"
+        ]
+      },
+      "sources": [
+        {
+          "id": "10901",
+          "publisher": "HadeethEnc.com",
+          "language": "fr",
+          "url": "https://hadeethenc.com/fr/browse/hadith/10901"
+        },
+        {
+          "id": "icadb:040e683b-6dc3-4880-86d1-a355b3f871e2:unversioned",
+          "publisher": "ICADB.com",
+          "language": "fr",
+          "url": "https://icadb.com/"
+        }
+      ]
+    },
+    {
+      "language": "es",
+      "case": "definition",
+      "httpStatus": "200",
+      "elapsedSeconds": 11.81,
+      "passed": true,
+      "summary": {
+        "language": "es",
+        "status": "found",
+        "context": "direct-topic",
+        "planner": null,
+        "ids": [
+          "4563"
+        ],
+        "sourceLanguages": [
+          "es"
+        ]
+      },
+      "sources": [
+        {
+          "id": "4563",
+          "publisher": "HadeethEnc.com",
+          "language": "es",
+          "url": "https://hadeethenc.com/es/browse/hadith/4563"
+        }
+      ]
+    },
+    {
+      "language": "es",
+      "case": "procedure",
+      "httpStatus": "200",
+      "elapsedSeconds": 36.08,
+      "passed": true,
+      "summary": {
+        "language": "es",
+        "status": "found",
+        "context": "semantic",
+        "planner": "astra",
+        "ids": [
+          "10901",
+          "icadb:040e683b-6dc3-4880-86d1-a355b3f871e2:unversioned"
+        ],
+        "sourceLanguages": [
+          "es",
+          "es"
+        ]
+      },
+      "sources": [
+        {
+          "id": "10901",
+          "publisher": "HadeethEnc.com",
+          "language": "es",
+          "url": "https://hadeethenc.com/es/browse/hadith/10901"
+        },
+        {
+          "id": "icadb:040e683b-6dc3-4880-86d1-a355b3f871e2:unversioned",
+          "publisher": "ICADB.com",
+          "language": "es",
+          "url": "https://icadb.com/"
+        }
+      ]
+    },
+    {
+      "language": "zh",
+      "case": "definition",
+      "httpStatus": "200",
+      "elapsedSeconds": 9.96,
+      "passed": true,
+      "summary": {
+        "language": "zh",
+        "status": "found",
+        "context": "direct-topic",
+        "planner": null,
+        "ids": [
+          "4563"
+        ],
+        "sourceLanguages": [
+          "zh"
+        ]
+      },
+      "sources": [
+        {
+          "id": "4563",
+          "publisher": "HadeethEnc.com",
+          "language": "zh",
+          "url": "https://hadeethenc.com/zh/browse/hadith/4563"
+        }
+      ]
+    },
+    {
+      "language": "zh",
+      "case": "procedure",
+      "httpStatus": "200",
+      "elapsedSeconds": 38.16,
+      "passed": true,
+      "summary": {
+        "language": "zh",
+        "status": "found",
+        "context": "semantic",
+        "planner": "astra",
+        "ids": [
+          "10901",
+          "icadb:040e683b-6dc3-4880-86d1-a355b3f871e2:unversioned"
+        ],
+        "sourceLanguages": [
+          "zh",
+          "zh"
+        ]
+      },
+      "sources": [
+        {
+          "id": "10901",
+          "publisher": "HadeethEnc.com",
+          "language": "zh",
+          "url": "https://hadeethenc.com/zh/browse/hadith/10901"
+        },
+        {
+          "id": "icadb:040e683b-6dc3-4880-86d1-a355b3f871e2:unversioned",
+          "publisher": "ICADB.com",
+          "language": "zh",
+          "url": "https://icadb.com/"
+        }
+      ]
+    },
+    {
+      "language": "hi",
+      "case": "definition",
+      "httpStatus": "200",
+      "elapsedSeconds": 9.03,
+      "passed": true,
+      "summary": {
+        "language": "hi",
+        "status": "found",
+        "context": "direct-topic",
+        "planner": null,
+        "ids": [
+          "4563"
+        ],
+        "sourceLanguages": [
+          "hi"
+        ]
+      },
+      "sources": [
+        {
+          "id": "4563",
+          "publisher": "HadeethEnc.com",
+          "language": "hi",
+          "url": "https://hadeethenc.com/hi/browse/hadith/4563"
+        }
+      ]
+    },
+    {
+      "language": "hi",
+      "case": "procedure",
+      "httpStatus": "200",
+      "elapsedSeconds": 27.22,
+      "passed": true,
+      "summary": {
+        "language": "hi",
+        "status": "found",
+        "context": "semantic",
+        "planner": "astra",
+        "ids": [
+          "10901"
+        ],
+        "sourceLanguages": [
+          "hi"
+        ]
+      },
+      "sources": [
+        {
+          "id": "10901",
+          "publisher": "HadeethEnc.com",
+          "language": "hi",
+          "url": "https://hadeethenc.com/hi/browse/hadith/10901"
+        }
+      ]
+    },
+    {
+      "language": "fa",
+      "case": "definition",
+      "httpStatus": "200",
+      "elapsedSeconds": 9.43,
+      "passed": true,
+      "summary": {
+        "language": "fa",
+        "status": "found",
+        "context": "direct-topic",
+        "planner": null,
+        "ids": [
+          "4563"
+        ],
+        "sourceLanguages": [
+          "fa"
+        ]
+      },
+      "sources": [
+        {
+          "id": "4563",
+          "publisher": "HadeethEnc.com",
+          "language": "fa",
+          "url": "https://hadeethenc.com/fa/browse/hadith/4563"
+        }
+      ]
+    },
+    {
+      "language": "fa",
+      "case": "procedure",
+      "httpStatus": "200",
+      "elapsedSeconds": 26.81,
+      "passed": true,
+      "summary": {
+        "language": "fa",
+        "status": "found",
+        "context": "semantic",
+        "planner": "astra",
+        "ids": [
+          "10901"
+        ],
+        "sourceLanguages": [
+          "fa"
+        ]
+      },
+      "sources": [
+        {
+          "id": "10901",
+          "publisher": "HadeethEnc.com",
+          "language": "fa",
+          "url": "https://hadeethenc.com/fa/browse/hadith/10901"
+        }
+      ]
+    },
+    {
+      "language": "id",
+      "case": "definition",
+      "httpStatus": "200",
+      "elapsedSeconds": 9.69,
+      "passed": true,
+      "summary": {
+        "language": "id",
+        "status": "found",
+        "context": "direct-topic",
+        "planner": null,
+        "ids": [
+          "4563"
+        ],
+        "sourceLanguages": [
+          "id"
+        ]
+      },
+      "sources": [
+        {
+          "id": "4563",
+          "publisher": "HadeethEnc.com",
+          "language": "id",
+          "url": "https://hadeethenc.com/id/browse/hadith/4563"
+        }
+      ]
+    },
+    {
+      "language": "id",
+      "case": "procedure",
+      "httpStatus": "200",
+      "elapsedSeconds": 22.58,
+      "passed": true,
+      "summary": {
+        "language": "id",
+        "status": "found",
+        "context": "semantic",
+        "planner": "astra",
+        "ids": [
+          "10901"
+        ],
+        "sourceLanguages": [
+          "id"
+        ]
+      },
+      "sources": [
+        {
+          "id": "10901",
+          "publisher": "HadeethEnc.com",
+          "language": "id",
+          "url": "https://hadeethenc.com/id/browse/hadith/10901"
+        }
+      ]
+    },
+    {
+      "language": "ur",
+      "case": "definition",
+      "httpStatus": "200",
+      "elapsedSeconds": 10.48,
+      "passed": true,
+      "summary": {
+        "language": "ur",
+        "status": "found",
+        "context": "direct-topic",
+        "planner": null,
+        "ids": [
+          "4563"
+        ],
+        "sourceLanguages": [
+          "ur"
+        ]
+      },
+      "sources": [
+        {
+          "id": "4563",
+          "publisher": "HadeethEnc.com",
+          "language": "ur",
+          "url": "https://hadeethenc.com/ur/browse/hadith/4563"
+        }
+      ]
+    },
+    {
+      "language": "ur",
+      "case": "procedure",
+      "httpStatus": "200",
+      "elapsedSeconds": 28.4,
+      "passed": true,
+      "summary": {
+        "language": "ur",
+        "status": "found",
+        "context": "semantic",
+        "planner": "astra",
+        "ids": [
+          "10901",
+          "3185"
+        ],
+        "sourceLanguages": [
+          "ur",
+          "ur"
+        ]
+      },
+      "sources": [
+        {
+          "id": "10901",
+          "publisher": "HadeethEnc.com",
+          "language": "ur",
+          "url": "https://hadeethenc.com/ur/browse/hadith/10901"
+        },
+        {
+          "id": "3185",
+          "publisher": "HadeethEnc.com",
+          "language": "ur",
+          "url": "https://hadeethenc.com/ur/browse/hadith/3185"
+        }
+      ]
+    },
+    {
+      "language": "ar",
+      "case": "new-icadb-card",
+      "httpStatus": "200",
+      "elapsedSeconds": 22.98,
+      "passed": true,
+      "summary": {
+        "language": "ar",
+        "status": "found",
+        "context": "semantic",
+        "planner": "astra",
+        "ids": [
+          "icadb-card:1638:1.0"
+        ],
+        "sourceLanguages": [
+          "ar"
+        ]
+      },
+      "sources": [
+        {
+          "id": "icadb-card:1638:1.0",
+          "publisher": "ICADB.com",
+          "language": "ar",
+          "url": "https://icadb.com/api/encyclopedias/cards/1638/version/1.0/sentences/"
+        }
+      ]
+    },
+    {
+      "language": "ar",
+      "case": "new-binbaz-answer",
+      "httpStatus": "200",
+      "elapsedSeconds": 55.95,
+      "passed": true,
+      "summary": {
+        "language": "ar",
+        "status": "found",
+        "context": "semantic",
+        "planner": "astra",
+        "ids": [
+          "binbaz:56",
+          "icadb-card:26014:1.0"
+        ],
+        "sourceLanguages": [
+          "ar",
+          "ar"
+        ]
+      },
+      "sources": [
+        {
+          "id": "binbaz:56",
+          "publisher": "BinBaz.org.sa",
+          "language": "ar",
+          "url": "https://binbaz.org.sa/fatwas/56/%D8%A7%D9%84%D8%AF%D9%84%D9%8A%D9%84-%D8%B9%D9%84%D9%89-%D9%83%D9%84%D9%85%D8%A9-%D8%A7%D9%84%D8%AA%D9%88%D8%AD%D9%8A%D8%AF"
+        },
+        {
+          "id": "icadb-card:26014:1.0",
+          "publisher": "ICADB.com",
+          "language": "ar",
+          "url": "https://icadb.com/api/encyclopedias/cards/26014/version/1.0/sentences/"
+        }
+      ]
+    },
+    {
+      "language": "id",
+      "case": "quran-translation",
+      "httpStatus": "200",
+      "elapsedSeconds": 10.13,
+      "passed": true,
+      "summary": {
+        "language": "id",
+        "status": "found",
+        "context": "exact-intent",
+        "planner": null,
+        "ids": [
+          "quran:1:1",
+          "quranpedia:1960:1:1"
+        ],
+        "sourceLanguages": [
+          "id",
+          "id"
+        ]
+      },
+      "sources": [
+        {
+          "id": "quran:1:1",
+          "publisher": "QuranEnc.com",
+          "language": "id",
+          "url": "https://quranenc.com/id/browse/indonesian_sabiq/1#1"
+        },
+        {
+          "id": "quranpedia:1960:1:1",
+          "publisher": "Quranpedia.net",
+          "language": "id",
+          "url": "https://api.quranpedia.net/v1/translations/1/1/id"
+        }
+      ]
+    },
+    {
+      "language": "ur",
+      "case": "quran-translation",
+      "httpStatus": "200",
+      "elapsedSeconds": 8.99,
+      "passed": true,
+      "summary": {
+        "language": "ur",
+        "status": "found",
+        "context": "exact-intent",
+        "planner": null,
+        "ids": [
+          "quran:1:1",
+          "quranpedia:1966:1:1"
+        ],
+        "sourceLanguages": [
+          "ur",
+          "ur"
+        ]
+      },
+      "sources": [
+        {
+          "id": "quran:1:1",
+          "publisher": "QuranEnc.com",
+          "language": "ur",
+          "url": "https://quranenc.com/ur/browse/urdu_junagarhi/1#1"
+        },
+        {
+          "id": "quranpedia:1966:1:1",
+          "publisher": "Quranpedia.net",
+          "language": "ur",
+          "url": "https://api.quranpedia.net/v1/translations/1/1/ur"
+        }
+      ]
+    }
+  ]
+}
