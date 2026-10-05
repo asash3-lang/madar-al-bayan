@@ -90,4 +90,6 @@ The next evaluation milestone is a versioned, independently reviewed multilingua
 
 [Release preparation checks](evidence/public-release-checks.json) record the separate public-package run: TypeScript and build passed, 13 search-client and 10 context-model controlled checks passed, alongside an independent-host identity-boundary check, and the official starter imported 54 unchanged text records across nine languages. The starter identity/index/retrieval smoke check also passed.
 
-The local Worker HTTP start was blocked by network-interface enumeration in the preparation environment. It is recorded as unverified, not counted as an end-to-end pass. These local checks used the available pinned dependency tree; a separate clean-machine dependency install and a published GitHub Actions run are not claimed.
+The local Worker HTTP start was blocked by network-interface enumeration in the preparation environment. It is recorded as unverified, not counted as an end-to-end pass. The preparation checks used the available pinned dependency tree.
+
+After publication, [GitHub Actions run 37287759221](https://github.com/asash3-lang/madar-al-bayan/actions/runs/37287759221) passed on a fresh Ubuntu runner with Node.js 22, at commit `1f98b739911faf348e0a46fc24be2cb118573d76`. The run installed locked dependencies, checked types and controlled contracts, built the source release, and checked public-release boundaries. This verifies clean CI installation and building; it does not establish live publisher access, email delivery, or browser end-to-end behavior.

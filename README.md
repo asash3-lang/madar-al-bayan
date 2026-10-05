@@ -14,6 +14,10 @@
   <a href="docs/EVALUATION.md">Test evidence</a>
 </p>
 
+<p align="center">
+  <a href="https://github.com/asash3-lang/madar-al-bayan/actions/workflows/quality.yml"><img src="https://github.com/asash3-lang/madar-al-bayan/actions/workflows/quality.yml/badge.svg" alt="Source quality checks" /></a>
+</p>
+
 ---
 
 ## A clear question deserves a traceable answer
@@ -109,6 +113,7 @@ The [reviewer guide](docs/REVIEWER_GUIDE.md) gives a timed route, multilingual e
 | Deployed v31 focused review | **6 requests returned HTTP 200** | Four returned relevant evidence; an off-topic question was correctly rejected; a general definition remained unanswered. |
 | Publisher connection probes | Dated provider-by-provider observations | Connectivity at the time of the probe, including failures and saved-content fallbacks. |
 | Public release checks | Recorded during release preparation | Reproducible code checks and packaging checks; separate from live semantic evaluation. |
+| GitHub Actions | [Clean-run verification passed](https://github.com/asash3-lang/madar-al-bayan/actions/runs/37287759221) | Locked dependency installation, type checks, controlled contracts, production build and release-boundary checks on a fresh runner. |
 
 These are engineering checks and a limited live sample, **not a measured accuracy rate for arbitrary religious questions**. Full outcomes, version labels and scope are in [Evaluation](docs/EVALUATION.md).
 

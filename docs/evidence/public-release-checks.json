@@ -1,6 +1,6 @@
 {
   "date": "2026-10-05",
-  "scope": "Public-source distribution checks in the preparation workspace; no claim of a published GitHub Actions run. Dependency installation from an empty external machine has not been independently verified.",
+  "scope": "Public-source distribution checks in the preparation workspace and a separate published GitHub Actions run. Preparation and CI evidence are identified separately.",
   "checks": [
     {
       "name": "TypeScript typecheck",
@@ -68,5 +68,24 @@
     "plannedLanguages": 11,
     "textRecords": 77806,
     "nonemptyExplanationsReportedSeparately": 18393
+  },
+  "githubActions": {
+    "date": "2026-10-05",
+    "repository": "asash3-lang/madar-al-bayan",
+    "commit": "1f98b739911faf348e0a46fc24be2cb118573d76",
+    "runId": 37287759221,
+    "url": "https://github.com/asash3-lang/madar-al-bayan/actions/runs/37287759221",
+    "workflow": "Source quality",
+    "outcome": "passed",
+    "runner": "ubuntu-latest",
+    "nodeVersion": "22",
+    "checks": [
+      "Locked dependency installation",
+      "TypeScript typecheck",
+      "Controlled contracts",
+      "Source release build",
+      "Public-release boundaries"
+    ],
+    "scope": "Fresh GitHub-hosted runner. No live publisher, real email delivery, or browser end-to-end test is claimed."
   }
 }
