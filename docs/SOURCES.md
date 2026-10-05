@@ -4,6 +4,25 @@ Madar Al Bayan retrieves published material from an explicit source allowlist. A
 
 This document describes the **reference deployment verified on 5 October 2026**. The public repository contains application code, connectors, metadata, and evaluation summaries. It does **not** redistribute the deployment's third-party text corpus or search indexes.
 
+## Inside the References menu
+
+The **References** library icon in the persistent right-hand navigation opens the platform's public source directory. Visitors can also reach it through **Explore the references** beneath the home-page collection statistics.
+
+| Directory element | What the visitor can inspect |
+| :--- | :--- |
+| Numbered current references | The nine reference entries listed below, each with a publisher website link |
+| Reference and materials | Arabic and English names and descriptions of the material supplied |
+| Collection size | The relevant saved-content count, player scope or publisher-catalog count, with the distinction stated |
+| Languages | The supported project languages available from that reference and verified additional publisher language counts where known |
+| Search | Filter entries by publisher name, material description or language |
+| Collection summaries | Hadith-text, Quran-text and enabled-language totals for the configured collection |
+| Expandable language breakdown | Hadith and explanation counts for each enabled language |
+| Upcoming references | A separate numbered section for the 25 proposed entries; these are outside the current coverage total |
+
+The directory identifies the reference collection. The source details attached to an individual answer identify the exact returned passage: its publisher, title, language, full text, available explanation, bibliography or verse reference, access date and available original-record link. These serve different purposes: a publisher's homepage is useful in the directory but cannot replace an exact answer citation.
+
+Implementation: [`resource-catalog.tsx`](../components/resource-catalog.tsx), [`reference-directory.ts`](../lib/reference-directory.ts), [`source-references.tsx`](../components/source-references.tsx), and [`source-links.ts`](../lib/source-links.ts).
+
 ## Read the numbers correctly
 
 | Measure | Verified count | What it measures |

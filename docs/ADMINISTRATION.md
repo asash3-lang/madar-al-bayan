@@ -14,6 +14,21 @@ When Madar Al Bayan cannot retrieve suitable published evidence, it provides a p
 
 The reviewer should answer in the questioner's language. Localized email templates provide the surrounding message and reading direction, while the answer itself is human-authored. There is no automatic translation of the reviewer's response and no guaranteed response deadline.
 
+## When a specialist is needed
+
+The supervisor can keep a question as a draft or mark it urgent while seeking advice from a suitable specialist through a separately arranged consultation. The original question, language and reference remain available in the record. Once an answer is ready, the supervisor writes or records the reviewed response and sends it to the saved email address.
+
+| Follow-up route | Current scope |
+| :--- | :--- |
+| Supervisor answers the question | Implemented: compose, save a draft and send the reply from the record |
+| Specialist consultation | Manual coordination outside the application; no automatic assignment or specialist inbox is claimed |
+| Cc / Bcc | Implemented for copies of an outgoing reply; this does not privately forward the unanswered request or track an assignment |
+| Email reply | Implemented through Resend, with the questioner's address prefilled and the sending outcome retained |
+| Phone contact | The separate contact form can retain a supplied phone number; this is not an SMS sending capability |
+| SMS and dedicated specialist assignment | Planned extensions, requiring their own delivery, permissions and workflow implementation |
+
+The supervisor remains responsible for the final response. The system does not automatically publish a consulted person's comments or send an unreviewed answer to the visitor.
+
 ## The private workspace
 
 | Capability | Implemented behavior |

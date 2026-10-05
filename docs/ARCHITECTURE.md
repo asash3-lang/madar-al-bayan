@@ -6,22 +6,10 @@ This document describes the deployed v31 implementation reviewed on **5 October 
 
 ## Request path
 
-```mermaid
-flowchart TD
-    A["Question + interface language"] --> B["Validate input and detect language"]
-    B --> C{"Exact topic or reference?"}
-    C -->|Yes| D["Fetch the identified publisher record"]
-    D --> E["Verify record identity and language"]
-    E --> K["Literal excerpts + publisher links"]
-    C -->|No| F["Policy check + question understanding"]
-    F -->|Individual review needed| L["Review referral"]
-    F --> G["Retrieve original and refined queries"]
-    G --> H["Merge and diversify publisher candidates"]
-    H --> I["Model checks original question against texts"]
-    I --> J{"Literal quote and relevance checks pass?"}
-    J -->|Yes| K
-    J -->|No| M["No matching evidence; offer review"]
-```
+![The complete question journey: nine languages, nine approved references, two Astra NLP stages, attributed results and human email follow-up](assets/question-to-answer.svg)
+
+[Open the full-size diagram](assets/question-to-answer.svg). The illustration presents the logical free-question journey; the implementation details below identify direct lookups, overlapping retrieval, publisher-specific capabilities and failure behavior.
+
 
 ### 1. Language and intent
 
@@ -108,7 +96,7 @@ flowchart TD
     H -->|Uncertain| K["Saved reply; reconcile before retry"]
 ```
 
-`lib/referrals.ts` stores the question, detected language, recipient email, timestamps, and numbered reference. `components/admin-workspace.tsx` exposes Inbox, Sent, Urgent, Trash, search, a preview, and reply details. Replies support drafts and optional Cc/Bcc. Phone-only contact messages remain contact requests; email delivery requires an email address.
+`lib/referrals.ts` stores the question, detected language, recipient email, timestamps, and numbered reference. `components/admin-workspace.tsx` exposes Inbox, Sent, Urgent, Trash, search, a preview, and reply details. Replies support drafts and optional Cc/Bcc. Phone-only contact messages remain contact requests; email delivery requires an email address. A supervisor can retain a draft or urgent item while consulting a specialist manually outside the application. Cc/Bcc copies an outgoing reply; dedicated specialist assignment and SMS delivery remain planned extensions.
 
 Updates use an `updatedAt` concurrency token. A durable database claim and revision-based idempotency key reduce duplicate sends. A provider acceptance receipt records `sent`; it does not prove inbox placement or reading. An uncertain delivery is retained for reconciliation rather than blindly resent. Deletion moves a message to Trash and can be reversed.
 

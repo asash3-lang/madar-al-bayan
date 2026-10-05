@@ -4,7 +4,7 @@ The central AI contribution in Madar Al Bayan is **context-sensitive access to e
 
 The reference deployment uses **OpenAI Astra (`gpt-6-astra`)** through the Responses API. This documents the model configured and exercised in the recorded deployment, not a guarantee that this model ID is available to every API account. Independent deployments set a compatible model through `OPENAI_MODEL` and re-evaluate its behavior.
 
-## The two model stages
+## The two natural-language processing (NLP) stages
 
 | Stage | Input | Model responsibility | Output used by the application |
 |:---|:---|:---|:---|
@@ -13,18 +13,10 @@ The reference deployment uses **OpenAI Astra (`gpt-6-astra`)** through the Respo
 
 The first stage does **not** produce an answer. The second stage does **not** make its own prose into source material. A separate deterministic validator checks the model's output against the actual supplied records before the visitor sees it.
 
-```mermaid
-flowchart TD
-    Q[Original question and language] --> U[Astra: intent and search expressions]
-    U --> R[Approved-source retrieval]
-    R --> C[Astra: context and passage relevance]
-    Q --> C
-    C --> V[Code: identity and literal-quote validation]
-    V --> E[Ranked publisher excerpts]
-    V --> H[Insufficient evidence or human review]
-```
+[View the complete illustrated question journey](assets/question-to-answer.svg), including all nine languages, the nine-reference network, both Astra NLP stages, the source-validation gate and human follow-up.
 
-This diagram shows the logical sequence. In the implementation, initial retrieval overlaps with the first model request to reduce waiting. Refined retrieval follows the returned search plan. The final evidence check always receives the **original question**, so a useful paraphrase cannot silently redefine what the user asked.
+
+The illustration shows the logical sequence. In the implementation, initial retrieval overlaps with the first model request to reduce waiting. Refined retrieval follows the returned search plan. The final evidence check always receives the **original question**, so a useful paraphrase cannot silently redefine what the user asked.
 
 ## Stage 1 in the code
 

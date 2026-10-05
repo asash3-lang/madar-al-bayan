@@ -63,28 +63,45 @@ The model helps bridge natural language and reference material while the publish
 
 ## How a question becomes evidence
 
-```mermaid
-flowchart TD
-    Q[Question in a supported language] --> L[Language and intent]
-    L --> E[Exact topic or verse reference]
-    L --> P[Model query understanding]
-    E --> C[Publisher content]
-    P --> R[Full-text and publisher retrieval]
-    R --> J[Context and literal-quote checks]
-    J --> A[Ranked attributed excerpts]
-    J --> H[No suitable evidence or human review]
-    C --> A
-```
+<p align="center">
+  <a href="docs/assets/question-to-answer.svg"><img src="docs/assets/question-to-answer.svg" alt="The complete Madar Al Bayan journey: nine supported languages, Astra question understanding, the nine-reference network, Astra evidence assessment, attributed results or a numbered human-review request and email reply. SMS and dedicated specialist assignment are marked as planned." width="100%" /></a>
+</p>
 
-Exact known topics and verse references can use a direct publisher path. Free questions use query understanding followed by a separate context check over retrieved candidates. The final quote must match the supplied source text; a model-generated sentence cannot become evidence merely by including a citation.
+[Open the full-size diagram](docs/assets/question-to-answer.svg) · [Detailed request path](docs/ARCHITECTURE.md#request-path)
+
+For free questions, **Astra performs two natural-language processing (NLP) tasks**: it interprets the request and prepares search expressions, then compares retrieved passages with the **unchanged original question**. Retrieval searches the applicable approved text collections and publisher adapters. Results can include several publishers when their passages answer the same topic or complementary parts of the request.
+
+The application shows accepted excerpts in the question's supported language, ordered by relevance, with the publisher, title, reference and available explanation. Opening a result reveals its full source details and an exact publisher record or official data response when available. Numeric relevance scores remain private. The answer text is retrieved from published material; it is not generated or automatically translated by Astra.
+
+The diagram shows the logical free-question journey. Initial retrieval can overlap question understanding. Exact known topics and verse references can use a direct lookup; empty retrieval goes to the no-evidence path without a passage-ranking call. The nine-reference network includes distinct text, commentary, catalog and audio capabilities, so every question does not trigger nine interchangeable answer APIs.
 
 Explore the [architecture](docs/ARCHITECTURE.md), [API contract](docs/API.md), and [source directory](docs/SOURCES.md).
+
+## What the References menu reveals
+
+The **References** library icon in the right-hand menu opens a searchable, numbered directory. Each entry presents the publisher's website, material type, content scope and language coverage, with Arabic and English descriptions. **Nine current references** appear first; **25 proposed reference entries** have a separate section. An expandable language breakdown shows hadith and explanation counts for the nine enabled languages; summary cards show the hadith-text, Quran-text and language totals.
+
+| # | Current reference | Contribution to the platform |
+| ---: | :--- | :--- |
+| 1 | [HadeethEnc](https://hadeethenc.com/) | 3,582 distinct hadith; 20,980 language-specific texts, with available explanations and grading |
+| 2 | [QuranEnc](https://quranenc.com/) | 6,236 verses across Arabic and eight published translations: 56,124 verse-text records |
+| 3 | [ICADB](https://icadb.com/) | Published book passages; 543 Arabic question-and-answer cards and 58 terminology cards in the saved collection |
+| 4 | [Quranpedia](https://quranpedia.net/) | Verse-addressed translations and commentary; publisher catalog lists 142 translation editions |
+| 5 | [Surah](https://surahapp.com/) | Al-Sa'di's Arabic commentary at an exact surah and verse |
+| 6 | [Byenah](https://byenah.com/) | One introductory work in seven saved official language editions |
+| 7 | [MP3Quran](https://mp3quran.net/) | Publisher-hosted Quran recitations; the player covers 114 surahs |
+| 8 | [IslamHouse](https://islamhouse.com/) | Article catalog, attachments and available article text; search covers a bounded recent page, not the complete catalog |
+| 9 | [Sheikh Ibn Baz — Official Website](https://binbaz.org.sa/) | 101 selected Arabic answers with their original references |
+
+The [full reference table](docs/SOURCES.md#current-reference-coverage) records language availability, counts and access scope. Publisher catalog totals describe the publisher's inventory; they are not all imported searchable records. A reference's homepage helps identify the publisher; an answer's source link points to its specific record when available.
 
 ## When a question needs human review
 
 If the search cannot find suitable published evidence, the visitor can submit the question with a **required email address and consent**. The platform stores the original question, language and arrival date, then returns a numbered reference.
 
 The private administration inbox presents the newest enquiries first. The owner can preview a question, open its details, and **write and send the answer with the recipient already filled in**. Drafts, urgent messages, Cc/Bcc, reference-number search, Sent and reversible Trash support follow-up. The reviewer writes the response in the questioner's language; the system does not invent or automatically translate that response.
+
+When specialist input is needed, the supervisor can coordinate a consultation outside the application, retain the request as a draft or urgent item, and send the final answer after review. Cc/Bcc can copy an outgoing reply; it does not create a separate specialist-assignment workflow. **Email delivery is implemented through Resend. SMS replies and dedicated in-app specialist assignment are planned extensions.** The separate Contact us form can collect a phone number, but it does not send an automatic phone reply.
 
 Public statistics describe reference content and language coverage. Private administration analytics describe searches, participating languages, recurring questions and correspondence. Read the [administration guide](docs/ADMINISTRATION.md) and [email workflow](docs/EMAIL_AND_SERVICES.md).
 
@@ -164,11 +181,11 @@ The implementation lives in `app/`, `components/`, `lib/`, and `db/`. Database m
 - Model decisions can be wrong, publisher availability can change, and some searches remain unanswered. The platform exposes the evidence and supports human review.
 - Email delivery requires working provider credentials and a verified sender. Do not enter personal beneficiary data in demonstration fixtures or public issues.
 
-## Ownership and attribution
+## Meet the creator
 
-**Project author:** Abdullah bin Saeed Al-Malki.
+**Lieutenant Colonel Abdullah bin Saeed Al-Malki** is the creator, owner and sole participant behind Madar Al Bayan. He holds a **master's degree in Computer Networks from King Fahd University of Petroleum & Minerals (KFUPM)** and serves as **Director of the Communications and Information Technology Division, Eastern Region Police**.
 
-Creator, project owner and sole participant. Read the [project profile](docs/PROJECT_AND_AUTHOR.md) for his role, the product's purpose and the decisions behind its design.
+His work on this personal project brings network engineering and technology leadership to a clear purpose: making published Islamic knowledge easier to discover, understand and verify across languages. Read the [creator's profile and project story](docs/PROJECT_AND_AUTHOR.md).
 
 Original application code is distributed under the [MIT license](LICENSE). Publisher texts, translations, trademarks and dependency packages retain their respective rights. Referencing a publisher does not imply its endorsement of this project.
 

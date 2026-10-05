@@ -1,10 +1,22 @@
 # The project and its creator
 
-## Abdullah bin Saeed Al-Malki
+## Lieutenant Colonel Abdullah bin Saeed Al-Malki
 
-**Abdullah bin Saeed Al-Malki is the creator, project owner and sole participant behind Madar Al Bayan.** He defines the product's purpose, directs its development and evaluates the experience from the questioner's perspective: a clear question, relevant published material, an inspectable reference and a practical route to human follow-up.
+**Abdullah bin Saeed Al-Malki is the creator, project owner and sole participant behind Madar Al Bayan.** He holds a **master's degree in Computer Networks from King Fahd University of Petroleum & Minerals (KFUPM)** and serves as **Director of the Communications and Information Technology Division, Eastern Region Police**, with the rank of **Lieutenant Colonel**.
 
-His work on this project centers on making Islamic reference material easier to discover across languages while keeping the distinction between published evidence, model judgment and a human reply visible. The product requirements reflect that responsibility: approved references, the publisher's wording, automatic language recognition, simple navigation and an administration workflow that retains the question's context.
+His background brings together network engineering and operational technology leadership. In Madar Al Bayan, he applies that perspective to a human need: helping someone ask a question in their own language, discover relevant Islamic knowledge, and understand where the answer comes from.
+
+He defines the product's purpose, directs its development and evaluates the experience from the questioner's perspective. His priorities shape the complete journey: a simple interface, approved references, the publisher's wording, contextual assessment, and organized human follow-up when the available material does not answer the question.
+
+| Profile | Details |
+| :--- | :--- |
+| Academic qualification | Master's degree in Computer Networks |
+| University | King Fahd University of Petroleum & Minerals (KFUPM) |
+| Current position | Director of the Communications and Information Technology Division, Eastern Region Police |
+| Rank | Lieutenant Colonel |
+| Project role | Creator, owner and sole participant |
+
+Madar Al Bayan is presented as his personal project. The professional background above identifies its creator; it does not imply institutional sponsorship or endorsement.
 
 ## Why Madar Al Bayan exists
 

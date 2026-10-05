@@ -34,6 +34,8 @@ sequenceDiagram
 
 The recipient's address is already stored with the question. The administrator can supply validated CC/BCC copies where needed without re-entering the primary recipient. The reply template uses the question language and appropriate text direction. The body of the answer is administrator-authored; the system does not claim to translate that answer automatically.
 
+The implemented delivery channel is **email**. A phone number submitted through the separate contact form is a contact detail, not an enabled SMS destination. SMS replies and a dedicated specialist-assignment workflow are [planned improvements](ROADMAP.md#human-follow-up-extensions). Specialist consultation can be coordinated manually before the supervisor sends the final email; Cc/Bcc sends a copy of that outgoing reply and does not route a private unanswered case to a specialist.
+
 ## Sending behavior implemented in this release
 
 [`referrals.ts`](../lib/referrals.ts) saves the answer revision before sending. A durable database claim prevents competing requests from sending the same approved revision concurrently. The request goes to `https://api.resend.com/emails` with an idempotency key derived from the question ID and reply revision.
